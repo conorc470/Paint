@@ -1,0 +1,71 @@
+#colors button {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+#colors {
+    margin: 0 0 0 50px;
+    text-align: left;
+}
+
+#black {
+    background: black;
+}
+
+#pink {
+    background: pink;
+}
+
+#red {
+    background: red;
+}
+
+#green { 
+    background: green;
+}
+
+#blue {
+    background: blue;
+}
+
+#orange {
+    background: orange;
+}
+
+.container {
+    text-align: center;
+    margin: 10px;
+}
+
+#canvas {
+	border: 3px solid black;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+	border-style: solid;
+	border-color: #2F2D2D #434040 #4F4C4C #434040;
+	background: white;
+	box-shadow: inset 0 2px 5px rgba(0,0,0,.6),0 5px 2px rgba(0,0,0,.1), 0 10px 20px rgba(0,0,0,.8);
+	position: relative;
+	overflow: hidden;
+}
+
+#clear {
+    background-color: white; 
+    color: black;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#clear:hover {
+    background-color: black;
+    color: white;
+}
+
+#button {
+    text-align: right;
+    margin: -45px 20px 0 0;
+}
